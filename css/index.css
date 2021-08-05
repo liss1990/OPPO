@@ -89,6 +89,7 @@ a{
     float: left;
     margin: 0px 15px;
     line-height: 90px;
+    
 }
 #nav li a{
     color: #666666;
@@ -96,4 +97,61 @@ a{
 }
 #nav li a:hover{
     color:#00925F
+}
+
+/* 设置网页明星机型部分的样式 */
+#star{
+ height: 700px;
+ background-color: #f2f2f2;
+}
+#star ul{
+    width: 1264px;
+    margin: 10px auto;
+}
+#star .star_top{
+    text-align: center;
+    margin: 10px;
+}
+#star li {
+    width: 300px;
+    /* border: 1px solid #000; */
+    float: left;
+    border-bottom:4px solid #DFDFDF;
+    transition: all 0.3s;
+}
+#star li:hover{
+    border-bottom:4px solid #4fb59d;
+    transform: translateY(-8px);
+}
+#star li img{
+    width: 300px;
+}
+
+#star li h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#star li p {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 12px;
+    color: #bdbdbd;
+}
+#star .money{
+    font-size: 14px;
+    color: #00925F;
+}
+#star li span{
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/icons-1.png") no-repeat -177px -1014px;
+}
+#star .line{
+    width: 0px;
+    height: 450px;
+    border-left: 1px solid #EAEAEA;
+    margin: 0px 10px;
 }
